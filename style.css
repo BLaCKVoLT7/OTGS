@@ -1,0 +1,147 @@
+
+
+/*** Start Default CSS ***/
+
+/*** End Default CSS ***/
+
+/*** Start Header ***/
+
+header{
+
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 100%;
+
+
+
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query for `xs` since this is the default in Bootstrap */
+@media (max-width: 575px) {
+
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 2560px) {
+
+}
+@media (min-width: 3840px) {
+
+}
+
+/*** End Header ***/
+
+/*** Start Footer ***/
+.footer-wrapper{
+  background-image: url("img/ba.jpg");
+}
+.segment-one a{
+  color: red !important;
+}
+
+.segment-two input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 4px solid black !important;
+  border-radius: 4px;
+}
+
+.btn-default {
+  font-family: Raleway-SemiBold;
+  font-size: 13px;
+  color: black;
+  letter-spacing: 1px;
+  line-height: 15px;
+  border: 2px solid rgba(108, 89, 179, 0.75);
+  border-radius: 40px;
+  border: 4px solid black !important;
+  transition: all 0.3s ease 0s;
+  width: 65%;
+  height: 10%;
+
+}
+.btnsend{
+  padding-left: 100px;
+   color: white ;
+}
+.textarea{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 4px solid black !important;
+  border-radius: 4px;
+}
+::-webkit-input-placeholder{
+  color: black;
+}
+.left{
+  text-align: left;
+}
+.right{
+  text-align: right;
+}
+.col-md-6 col-sm-10 col-xs-16 segment-two{
+	 color: red  ;
+}
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query for `xs` since this is the default in Bootstrap */
+@media (max-width: 575px) {
+
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 2560px) {
+
+}
+@media (min-width: 3840px) {
+
+}
+
+/*** End Footer ***/
+
+/*** Start Home ***/
+
+#home #section-one .img-fluid{
+	width:100%;
+	height:760px;
+}
